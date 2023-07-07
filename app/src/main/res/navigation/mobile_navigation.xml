@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_camara">
+
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="pe.edu.idat.ec2kotlin.MapsFragment"
+        android:label="Maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/navigation_camara"
+        android:name="pe.edu.idat.ec2kotlin.CamaraxFragment"
+        android:label="Camara"
+        tools:layout="@layout/fragment_camarax" />
+
+    <fragment
+        android:id="@+id/navigation_informacion"
+        android:name="pe.edu.idat.ec2kotlin.InformacionFragment"
+        android:label="Informacion"
+        tools:layout="@layout/fragment_informacion" />
+
+
+</navigation>
